@@ -189,7 +189,7 @@ export default function App() {
         {/* Overlay subtlely frosted for text legibility */}
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 via-white/40 to-qura-bg/90 pointer-events-none" />
 
-        <main className="w-full max-w-md z-10 flex flex-col items-center px-6 pt-14 pb-10 relative h-full">
+        <main className="w-full max-w-md z-10 flex flex-col items-center px-6 pt-24 pb-10 relative h-full">
           
           {/* Pill Badge */}
           <motion.div 
