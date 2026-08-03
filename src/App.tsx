@@ -162,7 +162,7 @@ export default function App() {
     <div className="min-h-[100dvh] bg-qura-bg flex flex-col relative font-sans overflow-x-hidden">
       {/* Header Oficial Minimalista */}
       <header className="w-full bg-white h-[72px] shadow-sm z-50 sticky top-0 flex justify-center">
-        <div className="absolute top-4">
+        <div className="absolute top-[14px]">
            <img 
              src="/assets/logo.png" 
              alt="Qura Logo" 
