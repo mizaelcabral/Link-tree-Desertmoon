@@ -166,7 +166,7 @@ export default function App() {
            <img 
              src="/assets/logo.png" 
              alt="Qura Logo" 
-             className="w-[120px] h-[120px] object-cover drop-shadow-md rounded-full" 
+             className="w-[120px] h-[120px] object-cover rounded-full logo-float" 
            />
         </div>
         <button 
