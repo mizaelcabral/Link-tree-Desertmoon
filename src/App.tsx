@@ -102,7 +102,7 @@ const TestimonialCarousel = () => {
         />
 
         <div className="w-full relative z-10 p-8">
-          <Quote className="w-10 h-10 text-[#2b819f] mb-6 transform scale-x-[-1] stroke-[1.5]" fill="none" />
+          <Quote className="w-10 h-10 text-[#7c3aed] mb-6 transform scale-x-[-1] stroke-[1.5]" fill="none" />
 
           {/* Inner wrapper to strictly clip content to padding area without bleed */}
           <div className="w-full overflow-hidden relative">
@@ -164,9 +164,9 @@ export default function App() {
       <header className="w-full bg-white h-[72px] shadow-sm z-50 sticky top-0 flex justify-center">
         <div className="absolute top-4">
            <img 
-             src="http://quraapp.com.br/wp-content/uploads/2026/06/logo-linktree.png" 
+             src="/assets/logo.png" 
              alt="Qura Logo" 
-             className="w-[96px] h-[96px] object-cover drop-shadow-md rounded-full" 
+             className="w-[120px] h-[120px] object-cover drop-shadow-md rounded-full" 
            />
         </div>
         <button 
@@ -198,7 +198,7 @@ export default function App() {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="px-6 py-1.5 rounded-full border border-qura-dark text-qura-dark text-sm font-semibold tracking-wide mb-8 backdrop-blur-sm bg-white/20"
           >
-            Bem-vindos a qura!
+            Bem-vindos à Desertmoon!
           </motion.div>
 
           {/* Heading */}
@@ -208,9 +208,9 @@ export default function App() {
             transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
             className="text-[34px] sm:text-4xl text-center font-black text-qura-dark leading-[1.1] mb-5 tracking-tight w-full drop-shadow-sm"
           >
-            Consultas &<br />
-            medicamentos na<br />
-            palma da sua mão!
+            Cannabis Premium<br />
+            para o seu Bem-Estar<br />
+            e Saúde!
           </motion.h1>
 
           {/* Description */}
@@ -220,7 +220,7 @@ export default function App() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-center text-qura-dark font-medium text-[15px] sm:text-base leading-relaxed mb-8 px-1 max-w-[340px] drop-shadow-sm"
           >
-            Agende consultas com facilidade e adquira seus medicamentos naturais com receita médica de forma segura e prática, tudo em um só aplicativo.
+            Conheça nossos produtos premium à base de cannabis. Testados em laboratório, certificados e desenvolvidos para o seu bem-estar e qualidade de vida.
           </motion.p>
 
           {/* Image Store Buttons (from user request URLs) */}
@@ -338,7 +338,7 @@ export default function App() {
               />
 
               <h2 className="text-white text-[32px] sm:text-[34px] font-bold leading-[1.05] tracking-tight relative z-10 w-full text-center mb-8 drop-shadow-md">
-                Sua saúde<br />
+                Seu Bem-Estar<br />
                 começa aqui!
               </h2>
 
@@ -362,7 +362,7 @@ export default function App() {
               className="h-8 w-auto object-contain mb-3 opacity-60" 
             />
             <p className="text-[13px] text-slate-500 font-medium">
-              &copy; {new Date().getFullYear()} Qura App. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} Desertmoon. Todos os direitos reservados.
             </p>
           </div>
 
