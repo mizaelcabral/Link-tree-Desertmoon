@@ -161,8 +161,8 @@ export default function App() {
   return (
     <div className="min-h-[100dvh] bg-qura-bg flex flex-col relative font-sans overflow-x-hidden">
       {/* Header Oficial Minimalista */}
-      <header className="w-full bg-white h-[140px] shadow-sm z-50 sticky top-0 flex justify-center">
-        <div className="absolute top-[10px]">
+      <header className="w-full bg-white h-[72px] shadow-sm z-50 sticky top-0 flex justify-center">
+        <div className="absolute top-4">
            <img 
              src="/assets/logo.png" 
              alt="Qura Logo" 
@@ -189,7 +189,7 @@ export default function App() {
         {/* Overlay subtlely frosted for text legibility */}
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 via-white/40 to-qura-bg/90 pointer-events-none" />
 
-        <main className="w-full max-w-md z-10 flex flex-col items-center px-6 pt-10 pb-10 relative h-full">
+        <main className="w-full max-w-md z-10 flex flex-col items-center px-6 pt-24 pb-10 relative h-full">
           
           {/* Pill Badge */}
           <motion.div 
