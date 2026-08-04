@@ -1,34 +1,34 @@
 import { motion } from 'motion/react';
-import { Globe, Phone, Share2, ChevronLeft, ChevronRight, Quote, Smartphone } from 'lucide-react';
+import { Globe, Phone, Share2, ChevronLeft, ChevronRight, Quote, User, Stethoscope } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 
 // Links secundários mantidos usando o design criado anteriormente
 const LINKS = [
   {
     id: 'site',
-    title: 'Acesse nosso site',
+    title: 'Visite nosso Site',
     url: 'https://quraapp.com.br/',
     icon: Globe,
     primary: false,
   },
   {
     id: 'appstore',
-    title: 'Baixar App Store',
+    title: 'Acesso ao Paciente',
     url: 'https://apps.apple.com/br/app/qura-consulta-e-importa%C3%A7%C3%A3o/id6745412040',
-    icon: Smartphone,
+    icon: User,
     primary: false,
   },
   {
     id: 'googleplay',
-    title: 'Baixar Google Play',
+    title: 'Acesso ao Prescritor',
     url: 'https://play.google.com/store/apps/details?id=br.com.quraapp.app&pli=1&fbclid=PAZXh0bgNhZW0CMTEAAaeuwc8HTDqV_eegTzwyZ4YO56yk6ius8JcQmRr6m9MOkK_mT1dCOnQZI8htBA_aem_NK2df3lWaOa1gMEblTmhsQ',
-    icon: Smartphone,
+    icon: Stethoscope,
     primary: false,
     black: true,
   },
   {
     id: 'whatsapp',
-    title: 'Fale com o suporte',
+    title: 'Fale com o Acolhimento',
     url: 'https://api.whatsapp.com/send/?phone=5583986380486',
     icon: Phone,
     primary: true,
@@ -206,7 +206,7 @@ export default function App() {
         {/* Background Image Layer */}
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat bg-fixed opacity-90"
-          style={{ backgroundImage: `url('https://quraapp.com.br/wp-content/uploads/2025/04/Background4_Easy-Resize.com_.jpg')` }}
+          style={{ backgroundImage: `url('/assets/banckground--qura.webp')` }}
         />
         {/* Overlay subtlely frosted for text legibility */}
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-white/60 via-white/40 to-qura-bg/90 pointer-events-none" />
@@ -357,27 +357,19 @@ export default function App() {
             transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
             className="w-full flex justify-center mt-6 sm:mt-10"
           >
-            <div className="w-full max-w-[360px] bg-[#1a1c1e] border border-white/5 rounded-[32px] pt-9 px-6 pb-0 flex flex-col items-center relative overflow-hidden shadow-2xl z-20">
+            <div className="w-full max-w-[360px] border border-white/5 rounded-[32px] min-h-[700px] px-6 pt-10 flex flex-col items-center justify-start relative overflow-hidden shadow-2xl z-20">
               
               {/* Background topological texture with low opacity */}
               <div 
-                className="absolute inset-0 z-0 bg-cover bg-center opacity-[0.12] mix-blend-luminosity grayscale" 
-                style={{ backgroundImage: `url('https://quraapp.com.br/wp-content/uploads/2025/04/background-qura1.png')` }}
+                className="absolute inset-0 z-0 bg-cover bg-center opacity-100 pointer-events-none" 
+                style={{ backgroundImage: `url('/assets/background-linktree-desert.png')` }}
               />
 
-              <h2 className="text-white text-[32px] sm:text-[34px] font-bold leading-[1.05] tracking-tight relative z-10 w-full text-center mb-8 drop-shadow-md">
+              <h2 className="text-qura-dark text-[32px] sm:text-[34px] font-bold leading-[1.05] tracking-tight relative z-10 w-full text-center drop-shadow-md">
                 Seu Bem-Estar<br />
                 começa aqui!
               </h2>
 
-              <div className="relative z-10 w-full flex justify-center mt-auto -mb-2">
-                <img 
-                  src="https://quraapp.com.br/wp-content/uploads/2025/04/qura-cena022.png" 
-                  alt="Acompanhamento no app em tempo real" 
-                  className="w-[98%] sm:w-full h-auto object-contain translate-y-3 drop-shadow-2xl" 
-                  draggable="false"
-                />
-              </div>
             </div>
           </motion.div>
 
@@ -385,9 +377,9 @@ export default function App() {
 
           <div className="w-full text-center mt-2 pb-6 z-20 flex flex-col items-center">
             <img 
-              src="https://quraapp.com.br/wp-content/uploads/2025/04/qura-logo-header.png" 
+              src="/assets/logo-2.png" 
               alt="Qura Logo" 
-              className="h-8 w-auto object-contain mb-3 opacity-60" 
+              className="h-28 w-auto object-contain mb-3 opacity-80" 
             />
             <p className="text-[13px] text-slate-500 font-medium">
               &copy; {new Date().getFullYear()} Desertmoon. Todos os direitos reservados.
