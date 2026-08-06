@@ -7,21 +7,21 @@ const LINKS = [
   {
     id: 'site',
     title: 'Visite nosso Site',
-    url: 'https://quraapp.com.br/',
+    url: '#',
     icon: Globe,
     primary: false,
   },
   {
     id: 'appstore',
     title: 'Acesso ao Paciente',
-    url: 'https://apps.apple.com/br/app/qura-consulta-e-importa%C3%A7%C3%A3o/id6745412040',
+    url: '#',
     icon: User,
     primary: false,
   },
   {
     id: 'googleplay',
     title: 'Acesso ao Prescritor',
-    url: 'https://play.google.com/store/apps/details?id=br.com.quraapp.app&pli=1&fbclid=PAZXh0bgNhZW0CMTEAAaeuwc8HTDqV_eegTzwyZ4YO56yk6ius8JcQmRr6m9MOkK_mT1dCOnQZI8htBA_aem_NK2df3lWaOa1gMEblTmhsQ',
+    url: '#',
     icon: Stethoscope,
     primary: false,
     black: true,
@@ -29,7 +29,7 @@ const LINKS = [
   {
     id: 'whatsapp',
     title: 'Fale com o Acolhimento',
-    url: 'https://api.whatsapp.com/send/?phone=5583986380486',
+    url: '#',
     icon: Phone,
     primary: true,
   }
@@ -165,7 +165,7 @@ export default function App() {
         {/* Social Media Icons - Left */}
         <div className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center gap-1">
           {/* Instagram */}
-          <a href="https://www.instagram.com/desertmooncbd/" target="_blank" rel="noopener noreferrer"
+          <a href="#" target="_blank" rel="noopener noreferrer"
             className="p-2 text-slate-400 hover:text-qura-dark hover:bg-slate-50 rounded-full transition-all"
             aria-label="Instagram">
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
@@ -173,7 +173,7 @@ export default function App() {
             </svg>
           </a>
           {/* TikTok */}
-          <a href="https://www.tiktok.com/@desertmooncbd" target="_blank" rel="noopener noreferrer"
+          <a href="#" target="_blank" rel="noopener noreferrer"
             className="p-2 text-slate-400 hover:text-qura-dark hover:bg-slate-50 rounded-full transition-all"
             aria-label="TikTok">
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
@@ -181,7 +181,7 @@ export default function App() {
             </svg>
           </a>
           {/* Facebook */}
-          <a href="https://www.facebook.com/desertmooncbd" target="_blank" rel="noopener noreferrer"
+          <a href="#" target="_blank" rel="noopener noreferrer"
             className="p-2 text-slate-400 hover:text-qura-dark hover:bg-slate-50 rounded-full transition-all"
             aria-label="Facebook">
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
@@ -254,7 +254,7 @@ export default function App() {
           {/* Image Store Buttons (from user request URLs) */}
           <div className="flex flex-row justify-center items-center -space-x-2 w-full max-w-[360px] mb-10">
             <motion.a 
-              href="https://apps.apple.com/br/app/qura-consulta-e-importa%C3%A7%C3%A3o/id6745412040" 
+              href="#" 
               target="_blank" 
               rel="noopener noreferrer"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -272,7 +272,7 @@ export default function App() {
               />
             </motion.a>
             <motion.a 
-              href="https://play.google.com/store/apps/details?id=br.com.quraapp.app" 
+              href="#" 
               target="_blank" 
               rel="noopener noreferrer"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -316,7 +316,7 @@ export default function App() {
                       ? 'bg-[#1a1c1e] text-white border border-white/5'
                       : link.primary 
                         ? 'bg-qura-light text-white' 
-                        : 'bg-[#f4f5f5] text-qura-dark border border-[#f4f5f5]'
+                        : 'bg-[#d8dadf] text-qura-dark border border-[#d0d3d8]'
                     }
                     transition-all duration-300 hover:shadow-md
                   `}
