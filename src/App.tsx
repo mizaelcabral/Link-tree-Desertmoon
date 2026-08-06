@@ -251,45 +251,6 @@ export default function App() {
             Conheça nossos produtos premium à base de cannabis. Testados em laboratório, certificados e desenvolvidos para o seu bem-estar e qualidade de vida.
           </motion.p>
 
-          {/* Image Store Buttons (from user request URLs) */}
-          <div className="flex flex-row justify-center items-center -space-x-2 w-full max-w-[360px] mb-10">
-            <motion.a 
-              href="#" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.3, type: 'spring', stiffness: 200 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="w-1/2 flex justify-center"
-            >
-              <img 
-                src="https://quraapp.com.br/wp-content/uploads/2025/04/Link.png" 
-                alt="Download on App Store" 
-                className="w-full h-auto object-contain drop-shadow-xl scale-110" 
-                draggable="false"
-              />
-            </motion.a>
-            <motion.a 
-              href="#" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.4, type: 'spring', stiffness: 200 }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="w-1/2 flex justify-center"
-            >
-              <img 
-                src="https://quraapp.com.br/wp-content/uploads/2025/04/Link1.png" 
-                alt="Get it on Google Play" 
-                className="w-full h-auto object-contain drop-shadow-xl scale-110"
-                draggable="false" 
-              />
-            </motion.a>
-          </div>
 
           {/* Regular Buttons (Mix Part) - Mantendo o layout linktree das secundárias */}
           <div className="w-full space-y-4 mb-4 z-20">
