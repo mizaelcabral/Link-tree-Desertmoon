@@ -236,8 +236,8 @@ export default function App() {
             transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
             className="text-[34px] sm:text-4xl text-center font-black text-qura-dark leading-[1.1] mb-5 tracking-tight w-full drop-shadow-sm"
           >
-            Cannabis Premium<br />
-            para o seu Bem-Estar<br />
+            Sua Jornada para o<br />
+            Equilíbrio de Vida<br />
             e Saúde!
           </motion.h1>
 
