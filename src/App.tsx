@@ -38,37 +38,37 @@ const LINKS = [
 const TESTIMONIALS = [
   {
     id: 1,
-    text: "O app revolucionou minha rotina de cuidados. Intuitivo, rápido e com profissionais incríveis!",
-    name: "Ana Souza",
-    role: "Paciente Vitanabis",
+    text: "Mais um avanço da Ayla! Ela começou a fazer aula de natação, ontem foi o segundo dia 💚 Estou compartilhando com vocês que sempre me ajudaram!",
+    name: "Ayla da Conceição dos Santos - Mãe Jéssica",
+    role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=47"
   },
   {
     id: 2,
     text: "Comprar meus medicamentos naturais ficou muito mais fácil e seguro. O acompanhamento é perfeito.",
     name: "Carlos Mendes",
-    role: "Paciente Qura",
+    role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=11"
   },
   {
     id: 3,
-    text: "Nunca vi um aplicativo tão completo para a saúde. As consultas por telemedicina são ótimas.",
+    text: "Nunca vi um atendimento tão atencioso e completo para a saúde. As orientações são ótimas.",
     name: "Mariana Silva",
-    role: "Paciente Vitanabis",
+    role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=35"
   },
   {
     id: 4,
     text: "Me sinto seguro com o atendimento ágil do suporte. Consegui tirar todas as minhas dúvidas em minutos.",
     name: "Lucas Fernandes",
-    role: "Paciente Qura",
+    role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=68"
   },
   {
     id: 5,
-    text: "Agora tenho todo o meu histórico organizado em um só lugar. Facilitou demais a minha vida!",
+    text: "Agora tenho todo o meu histórico e tratamento organizados. Facilitou demais a minha vida!",
     name: "Camila Ribeiro",
-    role: "Paciente Vitanabis",
+    role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=43"
   }
 ];
