@@ -7,21 +7,21 @@ const LINKS = [
   {
     id: 'site',
     title: 'Visite nosso Site',
-    url: '#',
+    url: 'https://desertmooncbd.com/pt',
     icon: Globe,
     primary: false,
   },
   {
     id: 'appstore',
     title: 'Acesso ao Paciente',
-    url: '#',
+    url: 'https://wa.me/17603300145?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20acolhimento%20da%20Desert%20Moon',
     icon: User,
     primary: false,
   },
   {
     id: 'googleplay',
     title: 'Acesso ao Prescritor',
-    url: '#',
+    url: 'https://wa.me/17603300145?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20acolhimento%20da%20Desert%20Moon',
     icon: Stethoscope,
     primary: false,
     black: true,
@@ -29,7 +29,7 @@ const LINKS = [
   {
     id: 'whatsapp',
     title: 'Fale com o Acolhimento',
-    url: '#',
+    url: 'https://wa.me/17603300145?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20acolhimento%20da%20Desert%20Moon',
     icon: Phone,
     primary: true,
   }
