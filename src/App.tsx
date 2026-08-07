@@ -59,8 +59,8 @@ const TESTIMONIALS = [
   },
   {
     id: 4,
-    text: "Me sinto seguro com o atendimento ágil do suporte. Consegui tirar todas as minhas dúvidas em minutos.",
-    name: "Lucas Fernandes",
+    text: "Vivia com muita ansiedade e instabilidade. Ao longo do tratamento, percebi uma melhora gradual e hoje me sinto muito mais equilibrado, calmo e no controle do meu dia a dia!",
+    name: "Brunno Martinelli",
     role: "Paciente Desertmoon",
     avatar: "https://i.pravatar.cc/150?img=68"
   },
