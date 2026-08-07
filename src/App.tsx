@@ -148,8 +148,8 @@ export default function App() {
     try {
       if (navigator.share) {
         await navigator.share({
-          title: 'Qura App',
-          text: 'Conheça o Qura App - Consulta e Importação',
+          title: 'Desert Moon',
+          text: 'Desert Moon - Cannabis Premium para o seu Bem-Estar e Saúde',
           url: window.location.href,
         });
       }
@@ -216,7 +216,7 @@ export default function App() {
           {/* Logo */}
           <img
             src="/assets/logo-2.png"
-            alt="Qura Logo"
+            alt="Desert Moon Logo"
             className="w-[110px] object-contain logo-float mb-4"
           />
 
@@ -339,7 +339,7 @@ export default function App() {
           <div className="w-full text-center mt-2 pb-6 z-20 flex flex-col items-center">
             <img 
               src="/assets/logo-2.png" 
-              alt="Qura Logo" 
+              alt="Desert Moon Logo" 
               className="h-28 w-auto object-contain mb-3 opacity-80" 
             />
             <p className="text-[13px] text-slate-500 font-medium">

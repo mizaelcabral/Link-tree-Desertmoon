@@ -1,6 +1,6 @@
 {
-  "name": "Qura Link in Bio",
-  "description": "Página estilo link in bio para o aplicativo Qura, com links para site, download na App Store e Google Play, e suporte.",
+  "name": "Desert Moon Link in Bio",
+  "description": "Página estilo link in bio para a Desert Moon, com links para site, suporte e redes sociais.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
