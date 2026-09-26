@@ -326,28 +326,6 @@ export default function App() {
             })}
           </div>
 
-          {/* Real-time Tracking Black Card */}
-          <motion.div 
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7, ease: "easeOut" }}
-            className="w-full flex justify-center mt-6 sm:mt-10"
-          >
-            <div className="w-full max-w-[360px] border border-white/5 rounded-[32px] min-h-[700px] px-6 pt-10 flex flex-col items-center justify-start relative overflow-hidden shadow-2xl z-20">
-              
-              {/* Background topological texture with low opacity */}
-              <div 
-                className="absolute inset-0 z-0 bg-cover bg-center opacity-100 pointer-events-none" 
-                style={{ backgroundImage: `url('/assets/background-linktree-desert.png')` }}
-              />
-
-              <h2 className="text-qura-dark text-[32px] sm:text-[34px] font-bold leading-[1.05] tracking-tight relative z-10 w-full text-center drop-shadow-md">
-                Seu Bem-Estar<br />
-                começa aqui!
-              </h2>
-
-            </div>
-          </motion.div>
 
           <TestimonialCarousel />
 
